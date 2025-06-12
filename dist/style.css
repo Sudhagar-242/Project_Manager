@@ -174,7 +174,6 @@ li p {
   width: 28px;
   height: 28px;
   border-radius: 6px;
-  margin-right: 6px;
   transition: transform 0.2s;
   text-align: center;
 }
@@ -231,7 +230,7 @@ li p {
   cursor: pointer;
   font-size: 24px;
   color: #fff;
-  margin: 3px 0 0 0;
+  margin: 4px 0 0 0;
   vertical-align: middle;
 }
 
