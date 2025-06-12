@@ -176,6 +176,7 @@ li p {
   border-radius: 6px;
   margin-right: 6px;
   transition: transform 0.2s;
+  text-align: center;
 }
 
 #Write {
@@ -226,8 +227,6 @@ li p {
   pointer-events: none;
   border-radius: 12px;
 }
-
-<style>
 .material-icons {
   cursor: pointer;
   font-size: 24px;
@@ -243,7 +242,6 @@ li p {
 .material-icons.delete:hover {
   color: #dc3545; /* red for delete */
 }
-</style>
 
 /* Responsive Enhancements */
 @media (max-width: 600px) {
