@@ -180,11 +180,11 @@ li p {
 }
 
 #Write {
-  background-color: maroon;
+  background-color: teal;
 }
 
 #delete {
-  background-color: magenta;
+  background-color: maroon;
 }
 
 #Write:hover,
@@ -230,8 +230,7 @@ li p {
 .material-icons {
   cursor: pointer;
   font-size: 24px;
-  color: #333;
-  margin: 0 8px;
+  color: #fff;
   vertical-align: middle;
 }
 
