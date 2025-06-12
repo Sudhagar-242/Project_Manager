@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and Drop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="DRAGaDrop">DRAG AND DROP</h1>
+  <template id="form_template">
+    <form>
+      <div class="form_control">
+        <label for="title">Title</label>
+        <input type="text" id="title">
+      </div>
+      <div class="form_control">
+        <label for="description">Description</label>
+        <textarea name="number" id="description" rows="3"></textarea>
+      </div>
+      <div class="form_control">
+        <label for="people">People</label>
+        <input type="number" id="people" min="0" step="1" max="10">
+      </div>
+      <button type="submit">Add Project</button>
+    </form>
+  </template>
+  <template id="single_project">
+    <li draggable="true">
+      <h2></h2>
+      <h3></h3>
+      <p></p>
+      <span id="Write"></span>
+      <span id="delete"></span>
+    </li>
+  </template>
+  <template id="project_lists">
+    <section class="projects">
+      <header>
+        <h2></h2>
+      </header>
+      <ul></ul>
+    </section>
+  </template>
+  <div id="app"></div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
