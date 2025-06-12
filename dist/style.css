@@ -227,6 +227,24 @@ li p {
   border-radius: 12px;
 }
 
+<style>
+.material-icons {
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+
+.material-icons.edit:hover {
+  color: #007bff; /* blue for edit */
+}
+
+.material-icons.delete:hover {
+  color: #dc3545; /* red for delete */
+}
+</style>
+
 /* Responsive Enhancements */
 @media (max-width: 600px) {
   form,
